@@ -1,0 +1,11 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Burgers</h3>
+    </div>
+    <div class="panel-body">
+        #{{ id }}. {{burger_name}}
+	        {{#if devoured}}
+			    <button type="button" class="btn btn-info float-right devourBtn" data-id="{{id}}" data-devoured="{{devoured}}">Devour!</button>
+		    {{/if}}
+    </div>
+</div>
